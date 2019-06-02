@@ -26,7 +26,7 @@ public class Poof : MonoBehaviour {
     public void LevelUpBuilding()
     {
         Maincamera.GetComponent<ClickMousebutton>().ActiveInfoBox++;
-        SelectedFactory.GetComponent<FactoryInfo>().level++;
+        SelectedFactory.GetComponent<FactoryInfo>().levelup();
         LevelNiv.text = "" +SelectedFactory.GetComponent<FactoryInfo>().level;
 
 

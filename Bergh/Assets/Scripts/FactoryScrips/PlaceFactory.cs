@@ -168,15 +168,18 @@ public class PlaceFactory : MonoBehaviour
 
 
 
-
+                bool blockplacement = false;
 
                     for (int i = 0; i < this.gameObject.GetComponent<BuildCost>().Buildcost.Length; ++i)
                     {
                         if (this.gameObject.GetComponent<BuildCost>().Buildcost[i] > MainCamera.GetComponent<ContainVariable>().GlobalResource[i])
                         {
                             Destroy(this.gameObject);
+                        blockplacement = true;
                         }
                     }
+                if (!blockplacement)
+                {
                     if (!House)
                     {
                         MainCamera.GetComponent<ContainVariable>().Workers -= 1;
@@ -186,16 +189,18 @@ public class PlaceFactory : MonoBehaviour
 
                         MainCamera.GetComponent<ContainVariable>().GlobalResource[i] -= this.gameObject.GetComponent<BuildCost>().Buildcost[i];
                     }
-                if (this.GetComponent<FactoryInfo>().Harbor)
-                {
-                    for (int i = 1; i < 5; ++i)
+                    if (this.GetComponent<FactoryInfo>().Harbor)
                     {
-                     //   Debug.Log(transform.GetChild(i).name);
-                        this.gameObject.transform.GetChild(i).GetComponent<RotateHarbor>().Setdown();
+                        for (int i = 1; i < 5; ++i)
+                        {
+                            //   Debug.Log(transform.GetChild(i).name);
+                            this.gameObject.transform.GetChild(i).GetComponent<RotateHarbor>().Setdown();
+
+                        }
 
                     }
-
                 }
+                Debug.Log("hhh");
                     Destroy(this);
 
 

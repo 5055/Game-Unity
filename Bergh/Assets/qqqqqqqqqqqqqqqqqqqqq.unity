@@ -725,7 +725,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 06c1baccc70051f4cb35be291146dac9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Buildcost: 00000000000000000000000000000000000000000000000000000000
+  Buildcost: 1900000000000000000000000a0000000000000001000000000000000000000000000000
 --- !u!114 &103081569
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -803,6 +803,7 @@ MonoBehaviour:
   FactoryName: 
   Connections: []
   level: 1
+  MainCamera: {fileID: 1774297750}
 --- !u!54 &103081573
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1447,7 +1448,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 294966408}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 405, y: 267.5, z: 0}
+  m_LocalPosition: {x: 274.5, y: 185.9375, z: 0}
   m_LocalScale: {x: 0.7, y: 0.7, z: 0.99998254}
   m_Children:
   - {fileID: 885059640}
@@ -1728,7 +1729,7 @@ RectTransform:
   m_GameObject: {fileID: 330586490}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 90}
-  m_LocalScale: {x: 0.016, y: 0.016, z: 0.016}
+  m_LocalScale: {x: 0.021650879, y: 0.021650879, z: 0.021650879}
   m_Children:
   - {fileID: 525245333}
   - {fileID: 294966409}
@@ -2448,7 +2449,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 525245332}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 317, y: 267.5, z: 0}
+  m_LocalPosition: {x: 186.5, y: 185.9375, z: 0}
   m_LocalScale: {x: 0.7, y: 0.7, z: 0.99989307}
   m_Children:
   - {fileID: 488189438}
@@ -3439,7 +3440,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 06c1baccc70051f4cb35be291146dac9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Buildcost: 00000000000000000000000000000000000000000000000000000000
+  Buildcost: 00000000000000000000000005000000000000000a000000020000000000000000000000
 --- !u!114 &772552634
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3517,6 +3518,7 @@ MonoBehaviour:
   FactoryName: 
   Connections: []
   level: 1
+  MainCamera: {fileID: 1774297750}
 --- !u!54 &772552638
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -3634,7 +3636,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 782367373}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -417.5428, y: 281.80228, z: 0}
+  m_LocalPosition: {x: -287.0428, y: 200.23976, z: 0}
   m_LocalScale: {x: 0.6279701, y: 1, z: 1}
   m_Children:
   - {fileID: 1988873593}
@@ -3747,7 +3749,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 798014237}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 8.799988, y: 348.5, z: 0}
+  m_LocalPosition: {x: 8.799988, y: 266.9375, z: 0}
   m_LocalScale: {x: 0.6279425, y: 0.9999562, z: 0.9999562}
   m_Children:
   - {fileID: 82332466}
@@ -4199,6 +4201,7 @@ MonoBehaviour:
   FactoryName: 
   Connections: []
   level: 1
+  MainCamera: {fileID: 1774297750}
 --- !u!54 &932013563
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -4282,7 +4285,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 06c1baccc70051f4cb35be291146dac9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Buildcost: 00000000000000000000000000000000000000000000000000000000
+  Buildcost: 140000001400000000000000000000000000000000000000000000000000000000000000
 --- !u!114 &932013568
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4690,6 +4693,7 @@ MonoBehaviour:
   FactoryName: 
   Connections: []
   level: 1
+  MainCamera: {fileID: 1774297750}
 --- !u!23 &995618075
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -4769,7 +4773,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 06c1baccc70051f4cb35be291146dac9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Buildcost: 00000000000000000000000000000000000000000000000000000000
+  Buildcost: 320000004b00000005000000000000000000000000000000000000000000000000000000
 --- !u!114 &995618080
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4945,6 +4949,7 @@ MonoBehaviour:
   FactoryName: 
   Connections: []
   level: 1
+  MainCamera: {fileID: 1774297750}
 --- !u!114 &999679467
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4968,7 +4973,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 06c1baccc70051f4cb35be291146dac9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Buildcost: 00000000000000000000000000000000000000000000000000000000
+  Buildcost: 000000000000000000000000000000000000000000000000000000000000000000000000
 --- !u!114 &999679469
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5288,7 +5293,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1030716073}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 312.5, z: 0}
+  m_LocalPosition: {x: 0, y: 230.9375, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 81531488}
@@ -5618,7 +5623,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1048924465}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 454.12177, y: 264.8023, z: 0}
+  m_LocalPosition: {x: 323.62177, y: 183.23979, z: 0}
   m_LocalScale: {x: 0.62797004, y: 1, z: 1}
   m_Children:
   - {fileID: 1233613951}
@@ -6263,6 +6268,7 @@ MonoBehaviour:
   FactoryName: 
   Connections: []
   level: 1
+  MainCamera: {fileID: 1774297750}
 --- !u!114 &1230836476
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6286,7 +6292,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 06c1baccc70051f4cb35be291146dac9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Buildcost: 00000000000000000000000000000000000000000000000000000000
+  Buildcost: 000000000a00000000000000000000000000000000000000000000000000000000000000
 --- !u!114 &1230836478
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6804,7 +6810,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 06c1baccc70051f4cb35be291146dac9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Buildcost: 00000000000000000000000000000000000000000000000000000000
+  Buildcost: 14000000140000000a00000000000000000000000000000000000000
 --- !u!114 &1470490652
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6882,6 +6888,7 @@ MonoBehaviour:
   FactoryName: 
   Connections: []
   level: 1
+  MainCamera: {fileID: 1774297750}
 --- !u!23 &1470490656
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -6996,7 +7003,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1471473714}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -420, y: 296.80228, z: 0}
+  m_LocalPosition: {x: -289.5, y: 215.23978, z: 0}
   m_LocalScale: {x: 0.6279701, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 330586494}
@@ -7196,7 +7203,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 06c1baccc70051f4cb35be291146dac9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Buildcost: 00000000000000000000000000000000000000000000000000000000
+  Buildcost: 00000000000000000000000000000000000000000a0000000f0000000a00000000000000
 --- !u!114 &1505725876
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7274,6 +7281,7 @@ MonoBehaviour:
   FactoryName: 
   Connections: []
   level: 1
+  MainCamera: {fileID: 1774297750}
 --- !u!54 &1505725880
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -7655,6 +7663,11 @@ Prefab:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 23361335090659312, guid: 13de4aac13f62fb40a28a3c284683163,
+        type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: b59ffccb822fe2d41abf605e6049247f, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 13de4aac13f62fb40a28a3c284683163, type: 2}
   m_IsPrefabParent: 0
@@ -7786,6 +7799,7 @@ MonoBehaviour:
   FactoryName: 
   Connections: []
   level: 1
+  MainCamera: {fileID: 1774297750}
 --- !u!54 &1636383651
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -7869,7 +7883,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 06c1baccc70051f4cb35be291146dac9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Buildcost: 00000000000000000000000000000000000000000000000000000000
+  Buildcost: 19000000140000000000000000000000000000000000000000000000
 --- !u!114 &1636383656
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8252,7 +8266,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 06c1baccc70051f4cb35be291146dac9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Buildcost: 00000000000000000000000000000000000000000000000000000000
+  Buildcost: 0000000000000000000000000f0000000a00000000000000000000000000000000000000
 --- !u!114 &1722037463
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8330,6 +8344,7 @@ MonoBehaviour:
   FactoryName: 
   Connections: []
   level: 1
+  MainCamera: {fileID: 1774297750}
 --- !u!54 &1722037467
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -8514,13 +8529,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   FactoryNum: 0
   DestroyMode: 0
-  Workers: 0
+  Workers: 4
   level: 1
   exp: 0
-  GlobalResource: 14000000000000000000000000000000000000000000000000000000
-  TradeResource: 01000000010000000100000001000000010000000100000001000000
+  GlobalResource: 320000001400000000000000000000000000000000000000000000000000000000000000
+  TradeResource: 000000000000000000000000000000000000000000000000000000000000000000000000
   import: 
-  value: 0d0000003f0000000c0000002d000000190000001a0000009d000000
+  value: 0100000001000000050000000a000000120000001e0000002d0000004400000064000000
   money: 0
   Xpslider: {fileID: 782367373}
 --- !u!114 &1774297756
@@ -9584,6 +9599,7 @@ MonoBehaviour:
   FactoryName: 
   Connections: []
   level: 1
+  MainCamera: {fileID: 1774297750}
 --- !u!114 &2020907402
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9607,7 +9623,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 06c1baccc70051f4cb35be291146dac9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Buildcost: 00000000000000000000000000000000000000000000000000000000
+  Buildcost: 190000001900000000000000000000000000000000000000000000000000000000000000
 --- !u!114 &2020907404
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9857,7 +9873,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 06c1baccc70051f4cb35be291146dac9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Buildcost: 00000000000000000000000000000000000000000000000000000000
+  Buildcost: 000000003200000000000000050000000000000000000000000000000000000000000000
 --- !u!114 &2102847844
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9935,6 +9951,7 @@ MonoBehaviour:
   FactoryName: 
   Connections: []
   level: 1
+  MainCamera: {fileID: 1774297750}
 --- !u!54 &2102847848
 Rigidbody:
   m_ObjectHideFlags: 0

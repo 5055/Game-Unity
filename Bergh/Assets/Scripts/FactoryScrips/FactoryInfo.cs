@@ -8,6 +8,7 @@ public class FactoryInfo : MonoBehaviour
     public string FactoryName = "";
     public List<GameObject> Connections = new List<GameObject>();
     public int level;
+    public GameObject MainCamera;
 
     void Start()
 {
@@ -20,8 +21,28 @@ public class FactoryInfo : MonoBehaviour
    //     Debug.Log(FactoryName);
 
     }
-    void update()
+    private void Update()
     {
+        
+    }
+    public void levelup()
+    {
+        bool BlockLevelUp = false;
+        for (int i = 0; i < this.gameObject.GetComponent<BuildCost>().Buildcost.Length; ++i)
+        {
+            if (this.gameObject.GetComponent<BuildCost>().Buildcost[i]* Mathf.Pow(2, level-1) > MainCamera.GetComponent<ContainVariable>().GlobalResource[i])
+            {
+                BlockLevelUp = true;
+            }
+        }
+        if (!BlockLevelUp)
+        {
+            level += 1;
+            for (int i = 0; i < this.gameObject.GetComponent<BuildCost>().Buildcost.Length; ++i)
+            {
+                MainCamera.GetComponent<ContainVariable>().GlobalResource[i] -= (int)(this.gameObject.GetComponent<BuildCost>().Buildcost[i] * Mathf.Pow(2, level - 2));
 
+            }
+        }
     }
 }
