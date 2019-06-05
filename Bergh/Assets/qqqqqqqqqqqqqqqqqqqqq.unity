@@ -4862,7 +4862,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 2100000, guid: f31da2b736d968e41a3ab5b19f524cab, type: 2}
+  - {fileID: 2100000, guid: 1cdb8614eeaacb44cb58bc25c6ac60df, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -6292,7 +6292,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 06c1baccc70051f4cb35be291146dac9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Buildcost: 000000000a00000000000000000000000000000000000000000000000000000000000000
+  Buildcost: 0a0000000000000000000000000000000000000000000000000000000000000000000000
 --- !u!114 &1230836478
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7831,7 +7831,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 2100000, guid: f31da2b736d968e41a3ab5b19f524cab, type: 2}
+  - {fileID: 2100000, guid: 717a02ed3619eea478e7d8400c32be8c, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -8529,7 +8529,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   FactoryNum: 0
   DestroyMode: 0
-  Workers: 4
+  Workers: 5
   level: 1
   exp: 0
   GlobalResource: 320000001400000000000000000000000000000000000000000000000000000000000000
